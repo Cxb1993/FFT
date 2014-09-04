@@ -12,7 +12,7 @@ touche me by e-mail. Thank you.
 
 *********************************************************/
 #include<stdio.h>
-#define ARRAY_SIZE 8
+#define ARRAY_SIZE 16
 
 int main(void)
 {
@@ -36,7 +36,7 @@ int main(void)
 
 	for(tmp = 0;tmp < ARRAY_SIZE; tmp++)
 	{
-		printf("%d %d\n",array[tmp],reverse_bits(array[tmp],bits));
+		printf("%4d %4d\n",array[tmp],reverse_bits(array[tmp],bits));
 	}
 
 	return 0 ;
@@ -47,11 +47,10 @@ int main(void)
 */
 int reverse_bits(int num,int bits)
 {
-	int tmp  = 0;
 	int ret  = 0;
 	int copy_num = 0;
 
-	for(ret = 0,tmp = 0,copy_num = num; bits > 0; tmp++,bits--)
+	for(ret = 0,copy_num = num; bits > 0; bits--)
 	{
 		ret  += (copy_num % 2) * (1<<(bits-1));
 
