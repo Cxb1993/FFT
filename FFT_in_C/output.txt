@@ -1,0 +1,118 @@
+point 0 real : 0.000000 imagine 0.000000
+point 1 real : 5.000000 imagine 0.000000
+point 2 real : 5.000000 imagine 0.000000
+point 3 real : 0.000000 imagine 0.000000
+point 4 real : 0.000000 imagine 0.000000
+point 5 real : 5.000000 imagine 0.000000
+point 6 real : 0.000000 imagine 0.000000
+point 7 real : 0.000000 imagine 0.000000
+
+
+ tmp:    0 index:    0  real:0.000000  imagine:0.000000
+ tmp:    1 index:    4  real:0.000000  imagine:0.000000
+ tmp:    2 index:    2  real:5.000000  imagine:0.000000
+ tmp:    3 index:    6  real:0.000000  imagine:0.000000
+ tmp:    4 index:    1  real:5.000000  imagine:0.000000
+ tmp:    5 index:    5  real:5.000000  imagine:0.000000
+ tmp:    6 index:    3  real:0.000000  imagine:0.000000
+ tmp:    7 index:    7  real:0.000000  imagine:0.000000
+layyer 1 input
+point 0 real : 0.000000 imagine 0.000000
+point 1 real : 0.000000 imagine 0.000000
+point 2 real : 5.000000 imagine 0.000000
+point 3 real : 0.000000 imagine 0.000000
+point 4 real : 5.000000 imagine 0.000000
+point 5 real : 5.000000 imagine 0.000000
+point 6 real : 0.000000 imagine 0.000000
+point 7 real : 0.000000 imagine 0.000000
+
+
+r: 0
+real:0.000000  imagine:0.000000
+r: 0
+real:0.000000  imagine:0.000000
+r: 0
+real:5.000000  imagine:0.000000
+r: 0
+real:0.000000  imagine:0.000000
+layyer1 output
+point 0 real : 0.000000 imagine 0.000000
+point 1 real : 0.000000 imagine 0.000000
+point 2 real : 5.000000 imagine 0.000000
+point 3 real : 5.000000 imagine 0.000000
+point 4 real : 10.000000 imagine 0.000000
+point 5 real : 0.000000 imagine 0.000000
+point 6 real : 0.000000 imagine 0.000000
+point 7 real : 0.000000 imagine 0.000000
+
+
+layyer 2 input
+point 0 real : 0.000000 imagine 0.000000
+point 1 real : 0.000000 imagine 0.000000
+point 2 real : 5.000000 imagine 0.000000
+point 3 real : 0.000000 imagine 0.000000
+point 4 real : 5.000000 imagine 0.000000
+point 5 real : 5.000000 imagine 0.000000
+point 6 real : 0.000000 imagine 0.000000
+point 7 real : 0.000000 imagine 0.000000
+
+
+r: 0
+real:5.000000  imagine:0.000000
+r: 2
+real:0.000000  imagine:0.000000
+r: 0
+real:0.000000  imagine:0.000000
+r: 2
+real:0.000000  imagine:0.000000
+layyer2 output
+point 0 real : 5.000000 imagine 0.000000
+point 1 real : 0.000000 imagine 0.000000
+point 2 real : -5.000000 imagine 0.000000
+point 3 real : 0.000000 imagine 0.000000
+point 4 real : 5.000000 imagine 0.000000
+point 5 real : 5.000000 imagine 0.000000
+point 6 real : 5.000000 imagine 0.000000
+point 7 real : 5.000000 imagine 0.000000
+
+
+layyer 3 input
+point 0 real : 0.000000 imagine 0.000000
+point 1 real : 0.000000 imagine 0.000000
+point 2 real : 5.000000 imagine 0.000000
+point 3 real : 0.000000 imagine 0.000000
+point 4 real : 5.000000 imagine 0.000000
+point 5 real : 5.000000 imagine 0.000000
+point 6 real : 0.000000 imagine 0.000000
+point 7 real : 0.000000 imagine 0.000000
+
+
+r: 0
+real:5.000000  imagine:0.000000
+r: 1
+real:3.535534  imagine:-3.535534
+r: 2
+real:0.000000  imagine:0.000000
+r: 3
+real:0.000000  imagine:-0.000000
+layyer3 output
+point 0 real : 5.000000 imagine 0.000000
+point 1 real : 3.535534 imagine -3.535534
+point 2 real : 5.000000 imagine 0.000000
+point 3 real : 0.000000 imagine 0.000000
+point 4 real : -5.000000 imagine 0.000000
+point 5 real : -3.535534 imagine 3.535534
+point 6 real : 5.000000 imagine 0.000000
+point 7 real : 0.000000 imagine 0.000000
+
+
+point 0 real : 5.000000 imagine 0.000000
+point 1 real : 3.535534 imagine -3.535534
+point 2 real : 5.000000 imagine 0.000000
+point 3 real : 0.000000 imagine 0.000000
+point 4 real : -5.000000 imagine 0.000000
+point 5 real : -3.535534 imagine 3.535534
+point 6 real : 5.000000 imagine 0.000000
+point 7 real : 0.000000 imagine 0.000000
+
+
