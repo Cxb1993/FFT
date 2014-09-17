@@ -1,3 +1,10 @@
+/***************************************************************
+code writer	:	EOF
+code file	:	fft.h
+code date	:	2014.09.17
+e-mail		:	jasonleaster@gmail.com
+
+****************************************************************/
 #ifndef _FFT_IN_C_H
 #define _FFT_IN_C_H
 

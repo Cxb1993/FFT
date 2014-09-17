@@ -1,14 +1,26 @@
+/***************************************************************
+code writer	:	EOF
+code file	:	fft.c
+code date	:	2014.09.17
+e-mail		:	jasonleaster@gmail.com
+
+code purpose	:
+
+	This code core-part of fft in my implementation.
+	If you find something wrong with my code, please touch
+me by e-mail. Thank you :)
+
+****************************************************************/
 #include "fft.h"
 
 struct signal* fft(struct signal* p_signal)
 {
-	struct signal*  p_input_signal   = (struct signal*)malloc(sizeof(struct complex_number)*(p_signal->size) + sizeof(p_signal->size));
+	struct signal*  p_input_signal = \
+	(struct signal*) malloc(sizeof(struct complex_number)*(p_signal->size) + sizeof(p_signal->size));
 
-	struct signal*  p_out_put_signal = (struct signal*)malloc(sizeof(struct complex_number)*(p_signal->size) + sizeof(p_signal->size));
-/*
-	p_input_signal->size   = p_signal->size;
-	p_out_put_signal->size = p_signal->size;
-*/
+	struct signal*  p_out_put_signal = \
+ 	(struct signal*)malloc(sizeof(struct complex_number)*(p_signal->size) + sizeof(p_signal->size));
+
 	*p_input_signal   = *p_signal;
 	*p_out_put_signal = *p_signal;
 
